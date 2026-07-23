@@ -5,7 +5,7 @@ class Solution:
     
         st=set()
         for i in range(n):
-            for j in range(i+1,n):
+            for j in range(i+1,n):                //optimal solution is needed
                 past=set()
                 for k in range(j+1,n):
                     remain=target-nums[i]-nums[j]-nums[k]
